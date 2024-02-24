@@ -1,0 +1,100 @@
+
+.whatsapp {
+    position: fixed;
+    bottom: 200px;
+    right: 25px;
+    z-index: 10;
+    display: inline-block;
+  }
+.message_whatsapp {
+    position: fixed;
+    bottom: 268px;
+    right: 25px;
+    z-index: 10;
+    display: inline-block;
+    background-color: #29a71a;
+    color: white;
+    text-align: center;
+    border-radius: 13px;
+    font-size: large;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.divmessage a {
+    color: white;
+}
+
+.button_info {
+    border-radius: 13px;
+    font-size: 20px;
+    background: black;
+    color: white;
+}
+
+.backtop {
+    background-color: rgb(199, 1, 1);
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.black_what:focus {
+    background: black;
+    color: white;
+  }
+
+.input_contact {
+    width: 50%;
+    border-radius: 9px;
+    height: 39px;
+    padding-top: 4px;
+}
+
+/*estilo de la imagen del modal*/
+.imgmodal {
+    width: 100%;
+}
+
+/*opacar contenido cuando abre modal*/
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    z-index: 1;
+  }
+/*Columnas de boton modal*/
+ .divgridmodal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .textalign { 
+    text-align: end;
+    margin-bottom: 2px;
+ }
+
+ .textalign img {
+    width: 30px;
+ }
+
+ /*Cuando cambia a dispositivos moviles */
+ @media (max-width: 995px) {
+    .textalign a {
+        font-size: 11px;
+
+    }
+
+    .textalign img {
+        width: 20px;
+    }
+
+    .modal-body hr {
+        width: 120px;
+    }
+ }
