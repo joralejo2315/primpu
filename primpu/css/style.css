@@ -5,7 +5,7 @@ body {
 }
 
 .layout_padding {
-  padding: 0px 0;
+  padding: 5px 0;
 }
 
 .layout_padding2 {
@@ -38,7 +38,7 @@ body {
 }
 
 .layout_padding-top {
-  padding-top: 45px;
+  padding-top: 0 px;
 }
 
 .layout_padding-bottom {
@@ -631,13 +631,16 @@ a:focus {
 }
 
 .client_section .client_container .box .client-id .img-box {
-  min-width: 150px;
+  min-width: 95px;
   margin-top: -50px;
   margin-left: 5px;
 }
 
 .client_section .client_container .box .client-id .img-box img {
-  width: 100%;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: 2px solid #666;
 }
 
 .client_section .client_container .box .client-id .name {
