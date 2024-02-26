@@ -126,6 +126,14 @@
         padding: 8px 40px;
         border-radius: 30px;
      }
+     
+    .tooltip1 {
+        position: fixed;
+        display: inline-block;
+        right: 0;
+        z-index: 11;
+        bottom: 130px;
+      }
  }
 
  /*tooltip para el whastapp*/
