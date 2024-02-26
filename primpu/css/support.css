@@ -98,6 +98,11 @@
     text-transform: uppercase;
  }
 
+ .divcontainetfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
  /*Cuando cambia a dispositivos moviles */
  @media (max-width: 995px) {
     .textalign a {
@@ -122,3 +127,32 @@
         border-radius: 30px;
      }
  }
+
+ /*tooltip para el whastapp*/
+ .tooltip1 {
+    position: fixed;
+    display: inline-block;
+    right: 0;
+    z-index: 11;
+  }
+  
+  .tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 120px;
+    background-color: #29a71a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;    
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    left: 50%;
+    margin-left: -131px;    
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+    opacity: 1;
+  }
